@@ -2,48 +2,90 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ProjÉclatement MFA-Cosmologie</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    :root {
-      --bleu-cosmique: #0d3b66;
-      --quantum-purple: #5e2ced;
-      --gris-clair: #f4f6fb;
-      --ombre: 0 10px 20px rgba(13,59,102,0.08);
-    }
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      line-height: 1.7;
-      background: var(--gris-clair);
-      color: #222;
-      margin: 0;
-    }
-    header {
-      background: var(--bleu-cosmique);
-      color: white;
-      padding: 28px 0 18px 0;
-      text-align: center;
-      box-shadow: var(--ombre);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    header h1 {
-      font-size: 2.2em;
-      margin: 0 0 7px 0;
-      letter-spacing: 1.5px;
-    }
-    nav {
-      font-size: 1.1em;
-      margin-top: 5px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 12px;
-      transition: border-bottom .2s;
-      padding-bottom: 3px;
-    }
-    nav a:hover, nav a:focus {
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f5f6fa; color: #232323;}
+    header, footer { background: #1e2736; color: #fff; padding: 18px 0;}
+    nav ul { list-style: none; display: flex; gap: 24px; justify-content: center; padding: 0;}
+    nav a { color: #fff; text-decoration: none; font-weight: 600;}
+    main { max-width: 900px; margin: 32px auto; padding: 0 20px;}
+    section { margin-bottom: 36px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 24px;}
+    h1, h2, h3 { margin-top: 0;}
+    .external-links, .communities { display: flex; gap: 18px; flex-wrap: wrap;}
+    .external-links a, .communities a { display: inline-block; padding: 8px 14px; background: #e9eef2; border-radius: 5px; color: #1e2736; text-decoration: none; font-weight: 500;}
+    .external-links a:hover, .communities a:hover { background: #d2e2fd; }
+    footer { text-align: center; font-size: 15px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="text-align:center;">ProjÉclatement MFA-Cosmologie</h1>
+    <nav>
+      <ul>
+        <li><a href="#institut">Institut</a></li>
+        <li><a href="#bibliotheque">Bibliothèque</a></li>
+        <li><a href="#recherche">Portail Recherche</a></li>
+        <li><a href="#communautes">Communautés</a></li>
+        <li><a href="#portails">Portails Scientifiques</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section Institut -->
+    <section id="institut">
+      <h2>Institut de Recherche</h2>
+      <p>Dédié à l’étude des modèles cosmologiques fractals avancés.</p>
+      <!-- Ajoutez ici des contenus internes, équipe, missions, etc. -->
+    </section>
+
+    <!-- Section Bibliothèque Scientifique -->
+    <section id="bibliotheque">
+      <h2>Bibliothèque Scientifique</h2>
+      <p>Accès à nos publications et ressources.</p>
+      <!-- Liens vers publications internes ou documents -->
+      <div>
+        <ul>
+          <li><a href="#">Publication 1 (PDF)</a></li>
+          <li><a href="#">Publication 2 (Article)</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section Portail de Recherche -->
+    <section id="recherche">
+      <h2>Portail de Recherche</h2>
+      <p>Outils d’analyse cosmologique.</p>
+      <div>
+        <a href="#">Accéder aux outils (interface interne)</a>
+      </div>
+    </section>
+
+    <!-- Section Communautés -->
+    <section id="communautes">
+      <h2>Communautés</h2>
+      <div class="communities">
+        <a href="https://wa.me/" target="_blank">WhatsApp</a>
+        <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+        <a href="https://discord.com/" target="_blank">Discord</a>
+      </div>
+    </section>
+
+    <!-- Section Portails Scientifiques -->
+    <section id="portails">
+      <h2>Portails Scientifiques</h2>
+      <div class="external-links">
+        <a href="https://arxiv.org/" target="_blank">arXiv<br><small>Prépublications scientifiques</small></a>
+        <a href="https://nasa.gov/" target="_blank">NASA<br><small>Recherche spatiale</small></a>
+        <a href="https://cern.ch/" target="_blank">CERN<br><small>Physique des particules</small></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2024 Institut ProjÉclatement | <a href="mailto:contact@projeclatement.mfa-cosmology" style="color:#b8d5ff;">Contact</a><br>
+    <span style="font-size:13px;">projeclatement.mfa-cosmology</span>
+  </footer>
+</body>
 </html>
