@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cosmos-Infos | ProjÉclatement MFA-Cosmologie</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- header identique à index.html -->
+  <main>
+    <section>
+      <h2>Cosmos-Infos</h2>
+      <p>À compléter : actualités, découvertes, informations sur le cosmos et la cosmologie.</p>
+    </section>
+  </main>
+  <footer>© 2024 ProjÉclatement | projeclatement.mfa-cosmology</footer>
+</body>
+</html>
